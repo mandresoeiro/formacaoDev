@@ -1,0 +1,82 @@
+<!-- No HTML, há vários tipos de tags que são usadas para criar formulários interativos. Aqui estão as principais:
+
+1. <form>
+Representa o formulário em si. Todos os campos e elementos do formulário devem estar dentro dessa tag.
+Exemplo: -->
+
+<form action="/submit" method="post">
+  <!-- Campos do formulário -->
+</form>
+
+<!-- 2. <input /> -->
+Usada para diversos tipos de entrada. O atributo type define o tipo de campo.
+<input type="text" name="nome" placeholder="Digite seu nome" />
+
+texto
+<input type="text" name="nome" placeholder="Digite seu nome" />
+
+senha
+<input type="password" name="senha" placeholder="Digite sua senha" />
+
+email
+<input type="email" name="email" placeholder="Digite seu email" />
+
+numero
+<input type="number" name="idade" min="1" max="100" />
+
+checkbox
+<input type="checkbox" name="aceitar" value="sim" /> Aceitar os termos Radio
+<input type="radio" name="genero" value="masculino" /> Masculino
+<input type="radio" name="genero" value="feminino" /> Feminino Arquivo
+<input type="file" name="arquivo" />
+
+Botao
+
+<input type="submit" value="Enviar" />
+<input type="reset" value="Limpar" />
+
+<!-- 3. <textarea> -->
+textarea
+<textarea name="mensagem" rows="4" cols="50"></textarea>
+
+<!-- 4. select -->
+<!-- Usada para criar menus suspensos (dropdowns). html Copiar código -->
+
+<select name="cidade">
+  <option value="sp">São Paulo</option>
+  <option value="rj">Rio de Janeiro</option>
+</select>
+
+5. Botao: Botão personalizável que pode ser configurado para enviar ou resetar o
+formulário.
+
+<button type="submit">Enviar</button>
+
+6. label
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" />
+
+<!-- 7. <fieldset> e <legend> -->
+<fieldset>
+  <legend>Informações Pessoais</legend>
+  <input type="text" name="nome" placeholder="Nome" />
+  <input type="email" name="email" placeholder="Email" />
+</fieldset>
+
+<!-- 8. <datalist> -->
+<!-- Permite criar uma lista de sugestões para um campo. -->
+
+<input list="cidades" name="cidade" />
+<datalist id="cidades">
+  <option value="São Paulo"></option>
+  <option value="Rio de Janeiro"></option>
+</datalist>
+
+OUTPUT
+<output name="resultado"></output>
+
+PROGRESS
+<progress value="50" max="100"></progress>
+
+METER
+<meter value="0.5" min="0" max="1"></meter>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      html {
+        background-color: blueviolet;
+        color: firebrick;
+      }
+
+      a:visited {
+        color: white;
+      }
+
+      div {
+        display: inline-block; No sentido vertical elas não irão se sobrepor;
+        /* box-sizing: content-box; apenas o conteúdo */
+        /* box-sizing: border-box; */
+        background-color: #fff;
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+        border: 20px solid #555;
+        margin: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Configuração de Box Model</h1>
+
+    <div>Caixa #1</div>
+    <div>Caixa #2</div>
+    <div>Caixa #3</div>
+
+    <a href="exercicio.html">Voltar</a>
+  </body>
+</html>

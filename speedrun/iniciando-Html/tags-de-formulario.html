@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Tags Formulario</h1>
+    <form action="/salvar">
+    <input name="nome" type="text" , value="" placeholder="Digite seu nome" />
+    <input name="email" type="email" placeholder="Digite seu email" required />
+    <input
+      name="senha"
+      type="password"
+      placeholder="Digite sua senha"
+      required
+    />
+    <!-- <button type="submit">Enviar</button> -->
+    <input type="date" />
+    <input type="text" placeholder="Digite aqui..." />
+
+    <input
+      name="dependentes"
+      type="number"
+      placeholder="Digite a quantidade de dependentes"
+      min="1"
+      max="100"
+    />
+    <button>salvar</button>
+    <div>
+      <!-- laber está associado ao input para acessibilidade -->
+      <label for="exterior">Reside no Exterior? </label>
+      <input id="exterior' name="resideNoExterior" type="checkbox" value="sim"
+      /> Sim
+      <input name="resideNoExterior" type="checkbox" value="nao" /> Nao
+    </div>
+
+    <div>
+      <label for="genero">Genero</label>
+      <input id="genero" name="genero" type="radio" value="masculino" />
+      Masculino <input name="genero" type="radio" value="feminino" /> Feminino
+    </div>
+
+    <div>
+      <label for="sal2000">Ate´2000</label>
+      <input id="sal2000" name="salario" type="radio" value="masculino" />
+      Masculino <input name="genero" type="radio" value="feminino" /> Feminino
+    </div>
+
+    <div>
+      <label for="sal4000">Ate´4000</label>
+      <input id="sal4000" name="salario" type="radio" value="masculino" />
+      Masculino <input name="genero" type="radio" value="feminino" /> Feminino
+    </div>
+   
+  </body>
+</html>

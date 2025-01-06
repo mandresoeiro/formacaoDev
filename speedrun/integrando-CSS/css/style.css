@@ -1,0 +1,23 @@
+<style>
+      h1 {
+        background-color: crimson;
+        color: white;
+        font-size: 30px;
+        width: 500px;
+        height: 100px;
+        line-height: 100px; /* Centraliza verticalmente o texto */
+        text-align: center; /* Centraliza horizontalmente o texto */
+        margin: 0 auto; /* Centraliza horizontalmente o bloco na página */
+      }
+
+      div {
+        background-color: hotpink;
+        color: white;
+        font-size: 30px;
+        width: 500px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin: 20px auto; /* Adiciona espaçamento e centraliza o bloco */
+      }
+    </style>

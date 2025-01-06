@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display #02</title>
+    <style>
+      .h1 {
+        background-color: darkolivegreen;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        color: red;
+      }
+
+      .flexbox {
+        display: flex;
+      }
+
+      .externo {
+        height: 400px;
+        background-color: crimson;
+        border: 5px solid #000;
+      }
+
+      .interno {
+        height: 50px;
+        background-color: deepskyblue;
+        border: 2px solid #000;
+        column-gap: 20px;
+        padding: 5px;
+      }
+
+      .crescer-1 {
+        flex-grow: 1;
+      }
+
+      .crescer-2 {
+        flex-grow: 2;
+      }
+
+      .crescer-3 {
+        flex-grow: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Display FlexBox 2</h1>
+
+    <span>Container:</span>
+
+    <div>
+      <div class="externo flexbox">
+        <div class="interno crescer-1"></div>
+        <div class="interno crescer-2"></div>
+        <div class="interno crescer-1"></div>
+      </div>
+    </div>
+
+    <a href="exercicio.html">Voltar</a>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio HTML</title>
+</head>
+
+<body>
+    <h1>Cadastro de Receita/Despesa</h1>
+    <!-- <input id="descricao" name="descricao" type="text" /> -->
+
+
+    <div>
+        <label for="descricao"><b>Descrição</b></label>
+        <div>
+            <input id="descricao" name="descricao" type="text" />
+        </div>
+        <div>
+
+            <!-- #TODO - Criar um select de categorias -->
+
+            <div>
+                <label for="obervacao"><b>Obeservação</b></label>
+
+                <div>
+                    <textarea id="obervacao" name="obervacao">
+    </textarea>
+                </div>
+                <div>
+
+                    <span<b>Tipo</b></span>
+                        <div>
+                            <input id="tipo-receita" name="tipo" type="radio" value="receita" />
+                            <label for="receita">Receita</label>
+
+                            <input id="tipo-despesa" name="tipo" type="radio" value="receita" />
+                            <label for="despesa">Despesa</label>
+                        </div>
+
+                        <div>
+                            <label for="valor"><b>Valor</b></label>
+                            <div>
+                                <input id="valor" name="valor" type="number">
+                                </input>
+                            </div>
+
+                            <div>
+
+                                <label for="consolidade"><b>Consolidade</b></label>
+                                <div>
+                                    <input id="consolidade" name="consolidade" type="checkbox" />
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="conta"><b>Conta Associada</b></label>
+                                <div>
+
+                                    <select name="conta" id="conta">
+                                        <option value="conta1">Nubank</option>
+                                        <option value="conta2">Banco do Brasil</option>
+                                        <option value="conta3">Santander</option>
+                                        <option value="conta4">Itau</option>
+                                        <option value="conta5">Bradesco</option>
+
+                                    </select>
+                                </div>
+
+
+                            </div>
+
+                            <div>
+                                <button>Salvar</button>
+                                <button>Cancelar</button>
+                            </div>
+
+
+</body>
+
+</html>
